@@ -1,61 +1,104 @@
  Codepen link: https://codepen.io/rjcrter11/pen/YzPzabg
 
 
-    1. What is Semantic HTML? Tags that give markup meaning.
-    2. What is HTML used for? Base page structure
-    3. What is an attribute and where do we put it? Defines an element.
-    4. What is the h1 tag used for? How many times should I use it on a page? The most important heading. Used once per page.
-    5. Name two tags that have required attributes. <a> <img>
-    6. What do we put in the head of our HTML document? meta data, title, links
-    7. What is an id? for a single element of a page
-    8. What elements can I add an id to? links or styling
-    9. How many times can I use the same id on a page? once
-    10. What is a class? for multiple elements on a page
-    11. What elements can I add a class to? as many as you want 
-    12. How many times can I use the same class on a page? as many times as you want
-    13. How do I get my link to open in a new tab? target="_blank"
-    14. What is the alt attribute used for? provides info for an img if it cant be displayed
-    15. How do I reference an id? #
-    16. What is the difference between a section and a div? section is semantic, divs are presentational
-    17. What is CSS used for? styling 
+    1. What is Semantic HTML? 
+      Tags that give markup meaning.
+    2. What is HTML used for? 
+      Base page structure
+    3. What is an attribute and where do we put it? 
+      Defines an element.
+      Between the opening brackets. (<div class="thing">)
+    4. What is the h1 tag used for? How many times should I use it on a page? 
+      The most important heading. 
+      Used once per page.
+    5. Name two tags that have required attributes. 
+      <a> <img>
+    6. What do we put in the head of our HTML document? 
+      meta data, title, links
+    7. What is an id? 
+      for a single element of a page
+    8. What elements can I add an id to? 
+      links or styling
+    9. How many times can I use the same id on a page? 
+      once
+    10. What is a class? 
+      for styling multiple elements on a page
+    11. What elements can I add a class to? 
+      as many as you want 
+    12. How many times can I use the same class on a page? 
+      as many times as you want
+    13. How do I get my link to open in a new tab? 
+      target="_blank"
+    14. What is the alt attribute used for? 
+      provides info for an img if it cant be displayed
+    15. How do I reference an id? 
+      #
+    16. What is the difference between a section and a div? 
+      section is semantic, divs are presentational
+    17. What is CSS used for? 
+      styling 
     18. How to we select an element? 
-element name {}
-Example - every h2 on the page = h2 {}
+      name {}
+      Example - every h2 on the page = h2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one 
-  id: for one element--ex.linking to different parts of the same page through the nav bar.
-  class: for multiple elements--styling all of the paragraphs on a page.
-    20. How do we select classes in CSS? .name {}
-    21. How do we select a p element with a single class of “human””? p.human{}
+      id: for one element--ex.linking to different parts of the same page through the nav bar.
+      class: for multiple elements--styling all of the paragraphs on a page.
+    20. How do we select classes in CSS? 
+      .name {}
+    21. How do we select a p element with a single class of “human””? 
+      p.human{}
     22. What is a parent child selector? When would this be useful? .class1.class2 
      To target a class that's named multiple times, and has more than one ancestor. 
-    23. How do you select all links within a div with the class of sidebar? .sidebar a{}
-    24. What is a pseudo selector? keyword for a special state of an element
-    25. What do we use the change the spacing between lines? line-height
-    26. What do we use to change the spacing between letters? letter-spacing
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform: uppercase, text-transform: lowercase, text-transform: capitalize
-    28. How do I add a 1px border around my div that is dotted and black? border: 1px dotted black
-    29. How do I select everything on the page? *
-    30. How do I write a comment in CSS? /* */
-    31. How do I find out what file I am in, when I am using the command line? pwd 
-    32. Using the command line - how do I see a list of files/folders in my current folder? ls
-    33. How do I remove a file via the command line? Why do I have to be careful with this?  rm. it's permanent 
-
-    34. Why should I use version control? allows multiple people to work on the same project at the same time, and to go back to previous iterations of projects 
-    35. How often should I commit to github? often
-    36. What is the command we would use to push our repo up to github? git push -u origin <name>
+    23. How do you select all links within a div with the class of sidebar? 
+      .sidebar a{}
+    24. What is a pseudo selector? 
+      keyword for a special state of an element
+    25. What do we use the change the spacing between lines? 
+      line-height
+    26. What do we use to change the spacing between letters?   
+      letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? 
+      text-transform: uppercase, text-transform: lowercase, text-transform: capitalize
+    28. How do I add a 1px border around my div that is dotted and black? border: 
+      1px dotted black
+    29. How do I select everything on the page? 
+      *
+    30. How do I write a comment in CSS?
+       /* */
+    31. How do I find out what file I am in, when I am using the command line? 
+      pwd 
+    32. Using the command line - how do I see a list of files/folders in my current folder? 
+      ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this?  
+      rm 
+      it's permanent 
+    34. Why should I use version control? 
+      allows multiple people to work on the same project at the same time, and to go back to previous iterations of projects 
+    35. How often should I commit to github? 
+      often
+    36. What is the command we would use to push our repo up to github? 
+      git push -u origin <name>
     37. Walk me through Lambda's git flow. 
-    
+      1. fork the repo
+      2. add tl as collaborator 
+      3. clone the repo 
+      4. create a branch (git checkout -b first-lasname) 
+      5. submit a pull request using your own fork as the base/ add tl as a reviewer
+      6. tl merges hw back into master student fork
+
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element? block is it's own separate block across the page. inline is multiple elements being put side by side. 
-    2. What happens when an element is positioned absolutely? it is positioned relative to its nearest positioned ancestor, instead of to the viewport
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? inline-block
+    1. What is the difference between an inline element and a block element? 
+      block elements break to the next line, inline elements don't
+    2. What happens when an element is positioned absolutely? 
+      it is positioned relative to its nearest positioned ancestor, instead of to the viewport
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?   
+       display: inline-block
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-block: div, header, footer
-inline: a, span
-inline-block: img
+      block: div, header, footer
+      inline: a, span
+      inline-block: img
     5. In your own words, explain the box model. What is the fix for the box model? 
-
-The box that wraps around every element, with margin padding border and the content. 
-border-box- so you don't have to do a bunch of math to make the box fit after you've added padding and margin.
+      The box that wraps around every element, with margin padding border and the content. 
+      border-box- so you don't have to do a bunch of math to make the box fit after you've added padding and margin.
